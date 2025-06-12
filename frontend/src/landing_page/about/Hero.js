@@ -1,0 +1,111 @@
+import React from 'react'
+
+function Hero() {
+    return ( 
+         <div className="container">
+      <div className="row p-5 mt-5 mb-5">
+        {/* <h1 className="fs-2 text-center">
+          We pioneered the discount broking model in India
+          <br />
+          Now, we are breaking ground with our technology.
+        </h1> */}
+
+
+
+
+         <div className="container p-3">
+      <div className="row p-5">
+        <div className="col-6 p-5">
+          <h1 className="fs-2">EASY
+          </h1>
+          <h1 className="fs-2  ">FAST
+          </h1>
+          
+          <h3 className="fs-4 row p-3 text-muted">Investing in India was none of the above.
+But we’re changing that.
+Super easy to use, lightning fast, and crystal clear.</h3>
+          {/* <p className="text-muted">
+            That's why 1.3+ crore customers trust TRADGOO with ₹3.5+ lakh crores
+            worth of equity investments.
+          </p>
+          <h2 className="fs-4">No spam or gimmicks</h2>
+          <p className="text-muted">
+            No gimmicks, spam, "gamification", or annoying push notifications.
+            High quality apps that you use at your pace, the way you like.
+          </p>
+          <h2 className="fs-4">The TRADGOO universe</h2>
+          <p className="text-muted">
+            Not just an app, but a whole ecosystem. Our investments in 30+
+            fintech startups offer you tailored services specific to your needs.
+          </p>
+          <h2 className="fs-4">Do better with money</h2>
+          <p className="text-muted">
+            With initiatives like Nudge and Kill Switch, we don't just
+            facilitate transactions, but actively help you do better with your
+            money.
+          </p> */}
+        </div>
+        <div className="col-6 p-5">
+          <img src="media/images/hh.svg" style={{ width: "90%" }} />
+          <div className="text-center">
+            <a href="" className="mx-5" style={{ textDecoration: "none" }}>
+              Explore our products{" "}
+              <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+            </a>
+            <a href="" style={{ textDecoration: "none" }}>
+              Try Kite demo{" "}
+              <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+      </div>
+
+      <div
+        className="row p-5 mt-5 border-top text-muted"
+        style={{ lineHeight: "1.8", fontSize: "1.2em" }}
+      >
+        <div className="col-6 p-5">
+          <p>
+            We kick-started operations on the 15th of August, 2025 with the goal
+            of breaking all barriers that traders and investors face in India in
+            terms of cost, support, and technology. We named the company
+            TRADGOO, a combination of TRAD and "GOO".</p>
+          <p>
+            Today, our disruptive pricing models and in-house technology have
+            made us the biggest stock broker in India.
+          </p>
+          <p>
+            Over 1+ Crore clients place millions of orders every day through our
+            powerful ecosystem of investment platforms, contributing over 15% of
+            all Indian retail trading volumes.
+          </p>
+        </div>
+        <div className="col-6 p-5">
+          <p>
+            In addition, we run a number of popular open online educational and
+            community initiatives to empower retail traders and investors.
+          </p>
+          <p>
+            <a href="" style={{ textDecoration: "none" }}>
+              Rainmatter
+            </a>
+            , our fintech fund and incubator, has invested in several fintech
+            startups with the goal of growing the Indian capital markets.
+          </p>
+          <p>
+            And yet, we are always up to something new every day. Catch up on
+            the latest updates on our blog or see what the media is saying about
+            us.
+          </p>
+        </div>
+      </div>
+    </div>
+     );
+}
+
+export default Hero;
